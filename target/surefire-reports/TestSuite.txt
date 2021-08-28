@@ -1,0 +1,319 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 431, Failures: 45, Errors: 0, Skipped: 386, Time elapsed: 13.476 s <<< FAILURE! - in TestSuite
+UpdateServiceCategoryTest(office.sirion.suite.clientAdmin.UpdateServiceCategory)  Time elapsed: 13.463 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateServiceCategoryTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateGeographyTest(office.sirion.suite.clientAdmin.UpdateGeography)  Time elapsed: 13.465 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateGeographyTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateFunctionTest(office.sirion.suite.clientAdmin.UpdateFunction)  Time elapsed: 13.465 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateFunctionTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateRegionTest(office.sirion.suite.clientAdmin.UpdateRegion)  Time elapsed: 13.465 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateRegionTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateServiceTest(office.sirion.suite.clientAdmin.UpdateService)  Time elapsed: 13.466 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateServiceTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateContractServiceTest(office.sirion.suite.clientAdmin.UpdateContractService)  Time elapsed: 13.466 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateContractServiceTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateServiceSubCategoryTest(office.sirion.suite.clientAdmin.UpdateServiceSubCategory)  Time elapsed: 13.466 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateServiceSubCategoryTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateFrequencyTest(office.sirion.suite.clientAdmin.UpdateFrequency)  Time elapsed: 13.466 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateFrequencyTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateProjectTest(office.sirion.suite.clientAdmin.UpdateProject)  Time elapsed: 13.466 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateProjectTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+TierCreation(office.sirion.suite.clientAdmin.UpdateTier)  Time elapsed: 13.467 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: TierCreation([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateRegionHubTest(office.sirion.suite.clientAdmin.UpdateRegionHub)  Time elapsed: 13.467 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateRegionHubTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateMarketTest(office.sirion.suite.clientAdmin.UpdateMarket)  Time elapsed: 13.467 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateMarketTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateCompanyCodeTest(office.sirion.suite.clientAdmin.UpdateCompanyCode)  Time elapsed: 13.467 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateCompanyCodeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateInternalContractingPartyTest(office.sirion.suite.clientAdmin.UpdateInternalContractingParty)  Time elapsed: 13.468 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateInternalContractingPartyTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateOBPerformanceTypeTest(office.sirion.suite.clientAdmin.UpdateOBPerformanceType)  Time elapsed: 13.468 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateOBPerformanceTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateOBPhaseTest(office.sirion.suite.clientAdmin.UpdateOBPhase)  Time elapsed: 13.468 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateOBPhaseTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateOBCategoryTest(office.sirion.suite.clientAdmin.UpdateOBCategory)  Time elapsed: 13.468 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateOBCategoryTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateSLCategoryTest(office.sirion.suite.clientAdmin.UpdateSLCategory)  Time elapsed: 13.469 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateSLCategoryTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateSLSubCategoryTest(office.sirion.suite.clientAdmin.UpdateSLSubCategory)  Time elapsed: 13.469 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateSLSubCategoryTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateContractPaperTest(office.sirion.suite.clientAdmin.UpdateContractPaper)  Time elapsed: 13.469 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateContractPaperTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateSLItemTest(office.sirion.suite.clientAdmin.UpdateSLItem)  Time elapsed: 13.469 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateSLItemTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateVendorClassificationTest(office.sirion.suite.clientAdmin.UpdateVendorClassification)  Time elapsed: 13.47 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateVendorClassificationTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateTermTypeTest(office.sirion.suite.clientAdmin.UpdateTermType)  Time elapsed: 13.47 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateTermTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateTermTypeTest(office.sirion.suite.clientAdmin.UpdateContractType)  Time elapsed: 13.47 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateTermTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateCRTypeTest(office.sirion.suite.clientAdmin.UpdateCRType)  Time elapsed: 13.47 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateCRTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateIssueTypeTest(office.sirion.suite.clientAdmin.UpdateIssueType)  Time elapsed: 13.47 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateIssueTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateActionTypeTest(office.sirion.suite.clientAdmin.UpdateActionType)  Time elapsed: 13.471 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateActionTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateInterpretationTypeTest(office.sirion.suite.clientAdmin.UpdateWORType)  Time elapsed: 13.471 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateInterpretationTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateCRClassTest(office.sirion.suite.clientAdmin.UpdateCRClass)  Time elapsed: 13.471 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateCRClassTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateInterpretationTypeTest(office.sirion.suite.clientAdmin.UpdateInterpretationType)  Time elapsed: 13.471 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateInterpretationTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateGovernanceBodyTypeTest(office.sirion.suite.clientAdmin.UpdateGovernanceBodyType)  Time elapsed: 13.471 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateGovernanceBodyTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateUnitTypeTest(office.sirion.suite.clientAdmin.UpdateUnitType)  Time elapsed: 13.471 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateUnitTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateAgreementTypeTest(office.sirion.suite.clientAdmin.UpdateAgreementType)  Time elapsed: 13.472 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateAgreementTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateClauseCategoryTest(office.sirion.suite.clientAdmin.UpdateClauseCategory)  Time elapsed: 13.472 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateClauseCategoryTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateClauseTypeTest(office.sirion.suite.clientAdmin.UpdateClauseType)  Time elapsed: 13.472 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateClauseTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateCompanyPositionTest(office.sirion.suite.clientAdmin.UpdateCompanyPosition)  Time elapsed: 13.472 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateCompanyPositionTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateRiskTypeTest(office.sirion.suite.clientAdmin.UpdateRiskType)  Time elapsed: 13.472 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateRiskTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateIndustryTypeTest(office.sirion.suite.clientAdmin.UpdateIndustryType)  Time elapsed: 13.473 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateIndustryTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateTemplateCategoryTest(office.sirion.suite.clientAdmin.UpdateTemplateCategory)  Time elapsed: 13.473 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateTemplateCategoryTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateTransactionTypeTest(office.sirion.suite.clientAdmin.UpdateTransactionType)  Time elapsed: 13.473 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateTransactionTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdatePaperTypeTest(office.sirion.suite.clientAdmin.UpdatePaperType)  Time elapsed: 13.473 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdatePaperTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateBusinessUnitTest(office.sirion.suite.clientAdmin.UpdateBusinessUnit)  Time elapsed: 13.473 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateBusinessUnitTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateBusinessLineTest(office.sirion.suite.clientAdmin.UpdateBusinessLine)  Time elapsed: 13.474 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateBusinessLineTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+UpdateDiscrepancyReasonTypeTest(office.sirion.suite.clientAdmin.UpdateDiscrepancyReasonType)  Time elapsed: 13.474 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: UpdateDiscrepancyReasonTypeTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+
+PasswordPolicyTest(office.sirion.suite.clientAdmin.PasswordPolicy)  Time elapsed: 13.474 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+Data provider mismatch
+Method: PasswordPolicyTest([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=11, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=12, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=13, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=14, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=15, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=16, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=17, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) No,(java.lang.String) 30.0,(java.lang.String) 30.0,(java.lang.String) 30.0,(java.lang.String) No,(java.lang.String) 5.0,(java.lang.String) 8.0,(java.lang.String) Must mix alpha and numeric characters,(java.lang.String) Cannot Contain Password,(java.lang.String) 20.0,(java.lang.String) No,(java.lang.String) 60.0,(java.lang.String) No,(java.lang.String) 20.0,(java.lang.String) 180.0,(java.lang.String) No,(java.lang.String) Yes,(java.lang.String) Auto reset users passwords,(java.lang.String) ]
+

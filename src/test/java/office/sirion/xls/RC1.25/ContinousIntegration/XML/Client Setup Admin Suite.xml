@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Client Setup Admin Suite">
+
+	<test name="Client Setup Admin - Client/Supplier Creation">
+		<classes>
+			<class
+				name="office.sirion.suite.clientSetupAdmin.ClientSupplierCreation"></class>
+		</classes>
+	</test>
+</suite>
+

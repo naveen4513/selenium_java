@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Client Admin - Region"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="8"
+           time="0.000">
+  <properties />
+  
+            <testcase name="checkTestSkip" time="0.0" classname="office.sirion.suite.clientAdmin.Region">
+          <skipped />
+    </testcase>
+            <testcase name="reportDataSetResult" time="0.0" classname="office.sirion.suite.clientAdmin.Region">
+          <skipped />
+    </testcase>
+            <testcase name="reportDataSetResult" time="0.0" classname="office.sirion.suite.clientAdmin.Region">
+          <skipped />
+    </testcase>
+            <testcase name="reportTestResult" time="0.0" classname="office.sirion.suite.clientAdmin.Region">
+          <skipped />
+    </testcase>
+            <testcase name="reportDataSetResult" time="0.0" classname="office.sirion.suite.clientAdmin.Region">
+          <skipped />
+    </testcase>
+            <testcase name="RegionCreation" time="0.0" classname="office.sirion.suite.clientAdmin.Region">
+          <skipped />
+    </testcase>
+            <testcase name="RegionCreation" time="0.0" classname="office.sirion.suite.clientAdmin.Region">
+          <skipped />
+    </testcase>
+            <testcase name="RegionCreation" time="0.0" classname="office.sirion.suite.clientAdmin.Region">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Client Workflow Configuration Suite">
+
+	<test name="Client Workflow Configuration - EmailCreation">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.workflowConfiguration.EmailCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Client Workflow Configuration - WorkflowCreation">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.workflowConfiguration.WorkflowCreation"></class>
+		</classes>
+	</test>
+
+</suite>

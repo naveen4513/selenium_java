@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ToDo Suite">
+
+	<test name="End User ToDo Approvals">
+		<classes>
+			<class name="office.sirion.suite.ToDo.EndUserTodoApproval"></class>
+		</classes>
+	</test>
+
+	<test name="End User ToDo Tasks">
+		<classes>
+			<class name="office.sirion.suite.ToDo.EndUserTodoTasks"></class>
+		</classes>
+	</test>
+
+	<test name="End User ToDo Tasks Due Date">
+		<classes>
+			<class name="office.sirion.suite.ToDo.EndUserTodoTasksDueDate"></class>
+		</classes>
+	</test>
+
+	<test name="End User ToDo Meetings">
+		<classes>
+			<class name="office.sirion.suite.ToDo.EndUserTodoMeetings"></class>
+		</classes>
+	</test>
+
+</suite>
+

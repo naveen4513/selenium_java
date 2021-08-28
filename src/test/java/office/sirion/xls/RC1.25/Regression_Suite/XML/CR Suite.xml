@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CR Suite">
+
+	<test name="CR - Creation">
+		<classes>
+			<class name="office.sirion.suite.cr.CRCreation"></class>
+		</classes>
+	</test>
+
+	<test name="CR - Update">
+		<classes>
+			<class name="office.sirion.suite.cr.CRUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="CR - Workflow">
+		<classes>
+			<class name="office.sirion.suite.cr.CRWorkflow"></class>
+		</classes>
+	</test>
+	
+	<test name="CR - AuditLog">
+		<classes>
+			<class name="office.sirion.suite.cr.CRAuditLog"></class>
+		</classes>
+	</test>
+	
+	<test name="CR - Communication">
+		<classes>
+			<class name="office.sirion.suite.cr.CRCommunication"></class>
+		</classes>
+	</test>
+
+</suite>
+

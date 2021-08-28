@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Action Suite">
+
+	<test name="Action - Update">
+		<classes>
+			<class name="office.sirion.suite.action.ActionUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Action - Workflow">
+		<classes>
+			<class name="office.sirion.suite.action.ActionWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>
+

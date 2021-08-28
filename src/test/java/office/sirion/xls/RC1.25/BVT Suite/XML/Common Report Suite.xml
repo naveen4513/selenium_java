@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Common Report Suite">
+
+	<test name="Common Report - Open">
+		<classes>
+			<class name="office.sirion.suite.common.report.CommonReportOpen"></class>
+		</classes>
+	</test>
+
+</suite>

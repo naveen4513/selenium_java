@@ -1,0 +1,509 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sirion Admin Suite">
+
+	<test name="Sirion Admin - OB Performance Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.OBPerformanceType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - OB Phase">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.OBPhase"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - OB Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.OBCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Action Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.ActionType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Issue Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.IssueType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - CR Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.CRType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - CR Class">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.CRClass"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - WOR Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.WORType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Interpretation Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.InterpretationType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Governance Body Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.GovernanceBodyType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Unit Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UnitType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Agreement Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.AgreementType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Clause Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.ClauseCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Clause Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.ClauseType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Company Position">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.CompanyPosition"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Industry Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.IndustryType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Risk Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.RiskType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Transaction Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.TransactionType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Template Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.TemplateCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Paper Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.PaperType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Business Unit">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.BusinessUnit"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Business Line">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.BusinessLine"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Discrepancy Reason Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.DiscrepancyReasonType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Function">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.Function"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Service">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.Service"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Service Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.ServiceCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Service Sub Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.ServiceSubCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Contract Service">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.ContractService"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - SL Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.SLCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Contract Paper">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.ContractPaper"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Vendor Classification">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.VendorClassification"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Term Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.TermType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Contract Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.ContractType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - SL Sub Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.SLSubCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - SL Item">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.SLItem"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Frequency">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.Frequency"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Languages">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.Languages"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - RegionHub">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.RegionHub"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Market">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.Market"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - InternalContractingParty">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.InternalContractingParty"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - CompanyCode">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.CompanyCode"></class>
+		</classes>
+	</test>
+	
+<!-- 	<test name="Sirion Admin - Custom Group Creation">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.CustomGroupsCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Custom Field Creation">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.CustomFieldsCreation"></class>
+		</classes>
+	</test> -->
+
+	<test name="Sirion Admin - Update OB Performance Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateOBPerformanceType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update OB Phase">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateOBPhase"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update OB Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateOBCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Action Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateActionType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Issue Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateIssueType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update CR Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateCRType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update CR Class">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateCRClass"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update WOR Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateWORType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Interpretation Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateInterpretationType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Governance Body Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateGovernanceBodyType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Unit Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateUnitType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Agreement Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateAgreementType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Clause Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateClauseCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Clause Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateClauseType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Company Position">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateCompanyPosition"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Industry Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateIndustryType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Risk Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateRiskType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Transaction Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateTransactionType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Template Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateTemplateCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Paper Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdatePaperType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Business Unit">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateBusinessUnit"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Business Line">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateBusinessLine"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Discrepancy Reason Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateDiscrepancyReasonType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Function">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateFunction"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Service">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateService"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Service Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateServiceCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Service Sub Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateServiceSubCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Contract Service">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateContractService"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update SL Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateSLCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Contract Paper">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateContractPaper"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Vendor Classification">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateVendorClassification"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Term Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateTermType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Contract Type">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateContractType"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update SL Sub Category">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateSLSubCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update SL Item">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateSLItem"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Frequency">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateFrequency"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - Update Languages">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateLanguages"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - UpdateRegionHub">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateRegionHub"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - UpdateMarket">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateMarket"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - UpdateInternalContractingParty">
+		<classes>
+			<class
+				name="office.sirion.suite.sirionAdmin.UpdateInternalContractingParty"></class>
+		</classes>
+	</test>
+
+	<test name="Sirion Admin - UpdateCompanyCode">
+		<classes>
+			<class name="office.sirion.suite.sirionAdmin.UpdateCompanyCode"></class>
+		</classes>
+	</test>
+	
+</suite>

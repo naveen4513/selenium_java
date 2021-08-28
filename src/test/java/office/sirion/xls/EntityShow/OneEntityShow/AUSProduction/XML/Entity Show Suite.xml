@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Entity Show">
+
+	<test name="Entity Show Page">
+		<classes>
+			<class name="office.sirion.suite.entityShow.EntityShow"></class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GB Suite">
+
+	<test name="GB - Adhoc">
+		<classes>
+			<class name="office.sirion.suite.ChildGB.ChildGBAdhoc"></class>
+		</classes>
+	</test>
+	
+	<test name="GB - Update">
+		<classes>
+			<class name="office.sirion.suite.ChildGB.ChildGBUpdate"></class>
+		</classes>
+	</test>
+	
+	<test name="GB - Workflow">
+		<classes>
+			<class name="office.sirion.suite.ChildGB.ChildGBWorkflow"></class>
+		</classes>
+	</test>
+	
+</suite>
+

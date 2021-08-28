@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Issue Suite">
+
+	<test name="Issue - Update">
+		<classes>
+			<class name="office.sirion.suite.issue.IssueUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Issue - Workflow">
+		<classes>
+			<class name="office.sirion.suite.issue.IssueWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>
+

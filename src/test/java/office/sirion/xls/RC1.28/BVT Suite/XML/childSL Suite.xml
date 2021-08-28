@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="childSL Suite">
+
+	<test name="childSL - Update">
+		<classes>
+			<class name="office.sirion.suite.childSL.ChildSLUpdate"></class>
+		</classes>
+	</test>
+	
+	<test name="childSL - Workflow">
+		<classes>
+			<class name="office.sirion.suite.childSL.ChildSLWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>

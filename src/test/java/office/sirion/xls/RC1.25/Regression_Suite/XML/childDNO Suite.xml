@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="childDNO Suite">
+
+	<test name="childDNO - Workflow">
+		<classes>
+			<class name="office.sirion.suite.childDNO.ChildDNOWorkflow"></class>
+		</classes>
+	</test>
+
+	<test name="childDNO - AuditLog">
+		<classes>
+			<class name="office.sirion.suite.childDNO.ChildDNOAuditLog"></class>
+		</classes>
+	</test>
+
+	<test name="childDNO - Communication">
+		<classes>
+			<class name="office.sirion.suite.childDNO.ChildDNOCommunication"></class>
+		</classes>
+	</test>
+
+</suite>

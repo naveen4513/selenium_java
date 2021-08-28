@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search Suite">
+
+	<test name="End-User ID Search">
+		<classes>
+			<class name="office.sirion.suite.Search.EndUserIDSearch"></class>
+		</classes>
+	</test>
+
+	<test name="End-User Attachment Search">
+		<classes>
+			<class name="office.sirion.suite.Search.EndUserAttachmentSearch"></class>
+		</classes>
+	</test>
+
+	<test name="End-User MetaData Search">
+		<classes>
+			<class name="office.sirion.suite.Search.EndUserMetaDataSearch"></class>
+		</classes>
+	</test>
+
+	<test name="End-User Contract Document Search">
+		<classes>
+			<class name="office.sirion.suite.Search.EndUserContractDocumentSearch"></class>
+		</classes>
+	</test>
+</suite>

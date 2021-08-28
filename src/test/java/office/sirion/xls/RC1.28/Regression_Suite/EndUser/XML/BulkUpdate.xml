@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Bulk Create Suite">
+
+	<test name="Obligation Bulk Updation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkUpdate.Obligations"></class>
+		</classes>
+	</test>
+
+	<test name="Child Obligation Bulk Updation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkUpdate.ChildObligations"></class>
+		</classes>
+	</test>
+
+	<test name="Service Data Bulk Updation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkUpdate.Dispute"></class>
+		</classes>
+	</test>
+
+	<test name="Child Service Level Bulk Updation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkUpdate.ChildServiceLevels"></class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,11 @@
+*.log
+.settings
+*.swp
+*.class
+target/
+config.properties
+target/*
+test-output/*
+.idea/*
+.metadata/*
+/bin/

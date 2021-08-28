@@ -1,0 +1,8 @@
+<root>
+    <item name='org.apache.poi.hssf.record.cf.BorderFormatting BORDER_THICK'>
+        <annotation name='org.jetbrains.annotations.Range'>
+            <val name="from" val="0"/>
+            <val name="to" val="5"/>
+        </annotation>
+    </item>
+</root>

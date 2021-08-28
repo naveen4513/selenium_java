@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search Suite">
+
+	<test name="End-User ID Search">
+		<classes>
+			<class name="office.sirion.suite.Search.EndUserIDSearch"></class>
+		</classes>
+	</test>
+
+</suite>

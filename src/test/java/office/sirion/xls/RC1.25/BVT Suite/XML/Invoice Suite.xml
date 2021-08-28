@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Invoice Suite">
+
+	<test name="Invoice - Creation">
+		<classes>
+			<class name="office.sirion.suite.invoice.InvoiceCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Invoice - Update">
+		<classes>
+			<class name="office.sirion.suite.invoice.InvoiceUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Invoice - Workflow">
+		<classes>
+			<class name="office.sirion.suite.invoice.InvoiceWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>

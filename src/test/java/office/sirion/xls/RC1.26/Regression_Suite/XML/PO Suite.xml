@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PO Suite">
+
+	<test name="PO - Creation">
+		<classes>
+			<class name="office.sirion.suite.po.POCreation"></class>
+		</classes>
+	</test>
+
+	<test name="PO - Update">
+		<classes>
+			<class name="office.sirion.suite.po.POUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="PO - Workflow">
+		<classes>
+			<class name="office.sirion.suite.po.POWorkflow"></class>
+		</classes>
+	</test>
+	
+	<!-- <test name="PO - Audit Log">
+		<classes>
+			<class name="office.sirion.suite.po.POAuditLog"></class>
+		</classes>
+	</test> -->
+	
+	<test name="PO - Communication">
+		<classes>
+			<class name="office.sirion.suite.po.POCommunication"></class>
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Common Listing Suite">
+
+	<test name="Common Listing - Open">
+		<classes>
+			<class name="office.sirion.suite.common.listing.CommonListingOpen"></class>
+		</classes>
+	</test>
+
+<!-- 	<test name="Common Listing - Sorting">
+		<classes>
+			<class name="office.sirion.suite.common.listing.CommonListingSorting"></class>
+		</classes>
+	</test>
+
+	<test name="Common Listing - Filtering">
+		<classes>
+			<class name="office.sirion.suite.common.listing.CommonListingFilter"></class>
+		</classes>
+	</test> -->
+
+
+</suite>

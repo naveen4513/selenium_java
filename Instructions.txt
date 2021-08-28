@@ -1,0 +1,21 @@
+1. Change the Configuration.Properties as required
+i.e.	Instance URL, User Name and Password of all Accounts
+	Database Server URL and Password
+	Password Query Location
+	
+2. Change Location of Logs in Log4j2.xml
+
+3. For Sirion Super Admin, Download and Update the Language Pack and Place at Project Location
+4. For Sirion Client Setup Admin, under Application Provisioning, Contract Template Enable Formatting should be unchecked manually
+
+## How to reset build number in Jenkins
+Jenkins.instance.allItems.each() { 
+  item -> item.builds.each() { 
+    build -> build.delete()
+  }
+  item.updateNextBuildNumber(1)
+}  
+
+TestLink Jar Creation:
+
+mvn install:install-file -Dfile=testlink_jars\testlink-api-client-2.0.jar -DgroupId=com.testlink.client -DartifactId=testlink-api-client -Dversion=2.0 -Dpackaging=jar

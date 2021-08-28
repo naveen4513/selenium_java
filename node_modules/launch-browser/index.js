@@ -1,0 +1,47 @@
+var launcher = require('browser-launcher3');
+
+function launchBrowser(address, opts, callback){
+
+    if(arguments.length == 1){
+        callback = function(){};
+        opts = {};
+    } else if(arguments.length == 2){
+        if(typeof opts == 'function'){
+            callback = opts;
+            opts = {}
+        } else {
+            callback = function(){};
+        }
+    }
+
+    // defaults
+    opts.browser = opts.browser || [];
+    if(typeof opts.browser === 'string') opts.browser = [opts.browser];
+
+    launcher( function( e, launch ) {
+
+        if(e || (launch.browsers.length == 0)) return callback("Unable to open browser!");
+
+        // which browser to use? check preferred browsers first
+        var useBrowser = '';
+        for(var i=0; i<opts.browser.length; i++){
+            for(var ii=0; ii<launch.browsers.length; ii++){
+                if(launch.browsers[ii].name.toLowerCase() == opts.browser[i].toLowerCase()){
+                    useBrowser = launch.browsers[ii].name;
+                    break;
+                }
+            }
+            if(useBrowser != '') break;
+        }
+
+        if(useBrowser == '') useBrowser = launch.browsers[0].name;
+
+        opts.browser = useBrowser;
+
+        launch(address, opts, callback);
+
+    })
+
+}
+
+module.exports = launchBrowser;

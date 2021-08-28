@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Client Admin - CRClass"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="6"
+           time="0.000">
+  <properties />
+  
+            <testcase name="reportTestResult" time="0.0" classname="office.sirion.suite.clientAdmin.CRClass">
+          <skipped />
+    </testcase>
+            <testcase name="reportDataSetResult" time="0.0" classname="office.sirion.suite.clientAdmin.CRClass">
+          <skipped />
+    </testcase>
+            <testcase name="checkTestSkip" time="0.0" classname="office.sirion.suite.clientAdmin.CRClass">
+          <skipped />
+    </testcase>
+            <testcase name="reportDataSetResult" time="0.0" classname="office.sirion.suite.clientAdmin.CRClass">
+          <skipped />
+    </testcase>
+            <testcase name="CRClassCreation" time="0.0" classname="office.sirion.suite.clientAdmin.CRClass">
+          <skipped />
+    </testcase>
+            <testcase name="CRClassCreation" time="0.0" classname="office.sirion.suite.clientAdmin.CRClass">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

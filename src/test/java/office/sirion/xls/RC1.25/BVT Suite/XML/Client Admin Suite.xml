@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Client Admin Suite">
+
+	<test name="Client Admin - AdvancedOrganization">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.AdvancedOrganization"></class>
+		</classes>
+	</test>
+
+</suite>

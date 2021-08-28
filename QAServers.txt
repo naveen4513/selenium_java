@@ -1,0 +1,1 @@
+192.168.2.168-->/home/tomcat7/appProperties/trunkrc/integration/*-->rc-app

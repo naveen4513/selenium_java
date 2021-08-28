@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GB Suite">
+
+	<test name="GB - Creation">
+		<classes>
+			<class name="office.sirion.suite.governanceBody.GBCreation"></class>
+		</classes>
+	</test>
+
+	<test name="GB - Update">
+		<classes>
+			<class name="office.sirion.suite.governanceBody.GBUpdate"></class>
+		</classes>
+	</test>
+
+ 	<test name="GB - AuditLog">
+		<classes>
+			<class name="office.sirion.suite.governanceBody.GBAuditLog"></class>
+		</classes>
+	</test>
+	
+	<!-- <test name="GB - Communication">
+		<classes>
+			<class name="office.sirion.suite.governanceBody.GBCommunication"></class>
+		</classes>
+	</test> -->
+	
+</suite>
+

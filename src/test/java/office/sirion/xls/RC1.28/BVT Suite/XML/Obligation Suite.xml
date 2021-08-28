@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Obligation Suite">
+
+	<test name="Obligation - Creation">
+		<classes>
+			<class name="office.sirion.suite.obligation.OBCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Obligation - Update">
+		<classes>
+			<class name="office.sirion.suite.obligation.OBUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Obligation - Workflow">
+		<classes>
+			<class name="office.sirion.suite.obligation.OBWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>

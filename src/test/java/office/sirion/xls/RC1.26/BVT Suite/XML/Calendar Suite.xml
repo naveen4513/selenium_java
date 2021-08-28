@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Issue Suite">
+
+	<test name="End User Calendar">
+		<classes>
+			<class name="office.sirion.suite.Calender.EndUserCalendar"></class>
+		</classes>
+	</test>
+
+</suite>
+

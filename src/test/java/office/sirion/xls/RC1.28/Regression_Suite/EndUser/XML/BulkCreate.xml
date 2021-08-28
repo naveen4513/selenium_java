@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bulk Create Suite">
+
+	<test name="Obligation Bulk creation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkCreate.Obligations"></class>
+		</classes>
+	</test>
+
+	<test name="Service Level Bulk creation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkCreate.ServiceLevels"></class>
+		</classes>
+	</test>
+
+	<test name="Invoice Bulk creation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkCreate.Invoice"></class>
+		</classes>
+	</test>
+
+	<test name="Invoice Line Item Bulk creation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkCreate.InvoiceLineItem"></class>
+		</classes>
+	</test>
+
+	<test name="Clause Bulk creation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkCreate.Clause"></class>
+		</classes>
+	</test>
+
+	<test name="Contract Template Bulk creation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkCreate.ContractTemplate"></class>
+		</classes>
+	</test>
+
+	<test name="Dispute Bulk creation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkCreate.Dispute"></class>
+		</classes>
+	</test>
+
+	<test name="Service Data Bulk creation Test">
+		<classes>
+			<class name="office.sirion.suite.bulkCreate.ServiceData"></class>
+		</classes>
+	</test>
+
+</suite>

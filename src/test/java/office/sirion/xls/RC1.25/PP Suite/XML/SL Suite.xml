@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SL Suite">
+
+	<test name="SL - Update">
+		<classes>
+			<class name="office.sirion.suite.sl.SLUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="SL - Workflow">
+		<classes>
+			<class name="office.sirion.suite.sl.SLWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>

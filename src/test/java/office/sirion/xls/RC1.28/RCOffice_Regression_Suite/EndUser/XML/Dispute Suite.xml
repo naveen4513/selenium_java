@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Dispute Suite">
+
+	<test name="Dispute - Creation">
+		<classes>
+			<class name="office.sirion.suite.dispute.DisputeCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Dispute - Update">
+		<classes>
+			<class name="office.sirion.suite.dispute.DisputeUpdate"></class>
+		</classes>
+	</test>
+
+    <!-- <test name="Dispute - Audit Log">
+    <classes>
+        <class name="office.sirion.suite.dispute.DisputeAuditLog"></class>
+    </classes>
+    </test> -->
+
+    <test name="Dispute - Communication">
+    <classes>
+        <class name="office.sirion.suite.dispute.DisputeCommunication"></class>
+    </classes>
+    </test>
+
+	<test name="Dispute - Workflow">
+		<classes>
+			<class name="office.sirion.suite.dispute.DisputeWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>
+

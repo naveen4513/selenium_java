@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Contract Draft Request Suite">
+
+	<test name="Contract Draft Request - Creation">
+		<classes>
+			<class name="office.sirion.suite.cdr.cdrCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Contract Draft Request - Update">
+		<classes>
+			<class name="office.sirion.suite.cdr.cdrUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Contract Draft Request - Workflow">
+		<classes>
+			<class name="office.sirion.suite.cdr.cdrWorkflow"></class>
+		</classes>
+	</test>
+	
+	<test name="Contract Draft Request - Audit Log">
+		<classes>
+			<class name="office.sirion.suite.cdr.cdrAuditLog"></class>
+		</classes>
+	</test>
+	
+	<test name="Contract Draft Request - Communication">
+		<classes>
+			<class name="office.sirion.suite.cdr.cdrCommunication"></class>
+		</classes>
+	</test>
+	
+	<test name="Contract Draft Request - Listing Open">
+		<classes>
+			<class name="office.sirion.suite.cdr.cdrListingOpen"></class>
+		</classes>
+	</test>
+	
+	<test name="Contract Draft Request - Listing Filter">
+		<classes>
+			<class name="office.sirion.suite.cdr.cdrListingFilter"></class>
+		</classes>
+	</test>
+	
+	<test name="Contract Draft Request - Listing Sorting">
+		<classes>
+			<class name="office.sirion.suite.cdr.cdrListingSorting"></class>
+		</classes>
+	</test>
+
+</suite>
+

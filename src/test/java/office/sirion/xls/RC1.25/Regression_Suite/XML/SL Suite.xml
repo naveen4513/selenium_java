@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SL Suite">
+
+	<test name="SL - Creation">
+		<classes>
+			<class name="office.sirion.suite.sl.SLCreation"></class>
+		</classes>
+	</test>
+
+	<test name="SL - Update">
+		<classes>
+			<class name="office.sirion.suite.sl.SLUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="SL - Workflow">
+		<classes>
+			<class name="office.sirion.suite.sl.SLWorkflow"></class>
+		</classes>
+	</test>
+
+	<test name="SL - Audit Log">
+		<classes>
+			<class name="office.sirion.suite.sl.SLAuditLog"></class>
+		</classes>
+	</test>
+
+	<test name="SL - Communication">
+		<classes>
+			<class name="office.sirion.suite.sl.SLCommunication"></class>
+		</classes>
+	</test>
+
+</suite>

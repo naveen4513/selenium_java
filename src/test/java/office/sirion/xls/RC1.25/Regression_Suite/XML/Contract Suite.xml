@@ -1,0 +1,100 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Contract Suite">
+
+	<test name="Contract - Creation">
+		<classes>
+			<class name="office.sirion.suite.contract.ContractCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Update">
+		<classes>
+			<class name="office.sirion.suite.contract.ContractUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Worklfow">
+		<classes>
+			<class name="office.sirion.suite.contract.ContractWorkflow"></class>
+		</classes>
+	</test>
+
+	<!-- <test name="Contract - Audit Log">
+		<classes>
+			<class name="office.sirion.suite.contract.ContractAuditLog"></class>
+		</classes>
+	</test> -->
+
+	<test name="Contract - Communication">
+		<classes>
+			<class name="office.sirion.suite.contract.ContractCommunication"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Document Viewer">
+		<classes>
+			<class name="office.sirion.suite.contract.ContractDocumentViewer"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Application Group Creation">
+		<classes>
+			<class name="office.sirion.suite.contract.ApplicationGroupCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Application Group Update">
+		<classes>
+			<class name="office.sirion.suite.contract.ApplicationGroupUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Application Group Audit Log">
+		<classes>
+			<class name="office.sirion.suite.contract.ApplicationGroupAuditLog"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Application Creation">
+		<classes>
+			<class name="office.sirion.suite.contract.ApplicationCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Application Update">
+		<classes>
+			<class name="office.sirion.suite.contract.ApplicationUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Application Audit Log">
+		<classes>
+			<class name="office.sirion.suite.contract.ApplicationAuditLog"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Credit Earnback Creation">
+		<classes>
+			<class name="office.sirion.suite.contract.CreditEarnbackCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Credit Earnback Update">
+		<classes>
+			<class name="office.sirion.suite.contract.CreditEarnbackUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Credit Earnback Audit Log">
+		<classes>
+			<class name="office.sirion.suite.contract.CreditEarnbackAuditLog"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Credit Earnback Communication">
+		<classes>
+			<class name="office.sirion.suite.contract.CreditEarnbackCommunication"></class>
+		</classes>
+	</test>
+
+</suite>

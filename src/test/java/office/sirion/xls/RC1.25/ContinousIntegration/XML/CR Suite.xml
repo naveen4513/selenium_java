@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CR Suite">
+
+	<test name="CR - Update">
+		<classes>
+			<class name="office.sirion.suite.cr.CRUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="CR - Workflow">
+		<classes>
+			<class name="office.sirion.suite.cr.CRWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>
+

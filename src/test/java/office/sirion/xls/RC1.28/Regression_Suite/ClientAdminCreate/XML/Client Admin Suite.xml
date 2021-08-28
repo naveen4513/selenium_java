@@ -1,0 +1,312 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Client Admin Suite">
+
+
+<test name="Client Admin - OBPerformanceType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.OBPerformanceType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - OBPhase">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.OBPhase"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - OBCategory">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.OBCategory"></class>
+		</classes>
+	</test>
+ 
+	<test name="Client Admin - SLCategory">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.SLCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - SLSubCategory">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.SLSubCategory"></class>
+		</classes>
+	</test>
+	
+		<test name="Client Admin - SLItem">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.SLItem"></class>
+		</classes>
+	</test>
+	
+		<test name="Client Admin - ServiceCategory">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.ServiceCategory"></class>
+		</classes>
+	</test>
+ 
+	<test name="Client Admin - ServiceSubCategory">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.ServiceSubCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - ContractService">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.ContractService"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - ContractPaper">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.ContractPaper"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - VendorClassification">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.VendorClassification"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - TermType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.TermType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - ContractType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.ContractType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - ActionType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.ActionType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - IssueType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.IssueType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - CRType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.CRType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - CRClass">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.CRClass"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - WORType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.WORType"></class>
+		</classes>
+	</test>
+	
+	<test name="Client Admin - InterpretationType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.InterpretationType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - GovernanceBodyType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.GovernanceBodyType"></class>
+		</classes>
+	</test>
+ 
+	<test name="Client Admin - UnitType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.UnitType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - AgreementType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.AgreementType"></class>
+		</classes>
+	</test>
+ 
+	<test name="Client Admin - ClauseCategory">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.ClauseCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - ClauseType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.ClauseType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - CompanyPosition">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.CompanyPosition"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - IndustryType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.IndustryType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - RiskType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.RiskType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - TransactionType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.TransactionType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - TemplateCategory">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.TemplateCategory"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - PaperType">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.PaperType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - BusinessUnit">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.BusinessUnit"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - BusinessLine">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.BusinessLine"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Discrepancy Reason Type">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.DiscrepancyReasonType"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Function">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.Function"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Service">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.Service"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Geography">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.Geography"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Region">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.Region"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - CurrencyConversionMatrix">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.CurrencyConversionMatrix"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - AdvancedOrganization">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.AdvancedOrganization"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - OrganizationBranding">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.OrganizationBranding"></class>
+		</classes>
+	</test>
+
+
+	<test name="Client Admin - Frequency">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.Frequency"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Project">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.Project"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Tier">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.Tier"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - RegionHub">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.RegionHub"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Market">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.Market"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - InternalContractingParty">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.InternalContractingParty"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - CompanyCode">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.CompanyCode"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Organization Properties">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.OrganizationProperties"></class>
+		</classes>
+	</test>
+
+    <test name="Client Admin - Notification Alert">
+        <classes>
+            <class name="office.sirion.suite.clientAdmin.NotificationAlert"></class>
+        </classes>
+    </test>
+
+    <test name="Client Admin - Password Policy">
+        <classes>
+            <class name="office.sirion.suite.clientAdmin.PasswordPolicy"></class>
+        </classes>
+    </test>
+
+    <test name="Client Admin - Credit And Earnback Clause Creation">
+        <classes>
+            <class name="office.sirion.suite.clientAdmin.CreditNEarnbackClausesCreation"></class>
+        </classes>
+    </test>
+
+</suite>

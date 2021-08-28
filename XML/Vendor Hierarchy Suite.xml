@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vendor Hierarchy Suite">
+
+	<test name="Vendor Hierarchy - Creation">
+		<classes>
+			<class name="office.sirion.suite.vendorHierarchy.VendorHierarchyCreation"></class>
+		</classes>
+	</test>
+
+	<test name="Vendor Hierarchy - Update">
+		<classes>
+			<class name="office.sirion.suite.vendorHierarchy.VendorHierarchyUpdate"></class>
+		</classes>
+	</test>
+
+	<!-- <test name="Vendor Hierarchy - Audit Log">
+		<classes>
+			<class name="office.sirion.suite.vendorHierarchy.VendorHierarchyAuditLog"></class>
+		</classes>
+	</test> -->
+
+	<test name="Vendor Hierarchy - Communication">
+		<classes>
+			<class name="office.sirion.suite.vendorHierarchy.VendorHierarchyCommunication"></class>
+		</classes>
+	</test>
+
+</suite>

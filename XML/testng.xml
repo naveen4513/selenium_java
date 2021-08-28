@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<suite-files>
+
+		<suite-file path="Action Suite.xml" />
+
+	<!-- 	<suite-file path="XML/Entity Show Suite.xml" />
+			<suite-file path="XML/Sirion Admin Suite.xml" />
+			<suite-file path="XML/Client Setup Admin Suite.xml" />
+			<suite-file path="XML/Sirion User Admin Suite.xml" />
+			<suite-file path="XML/Client Admin Suite.xml" />
+			<suite-file path="XML/Client User Admin Suite.xml" />
+			<suite-file path="XML/Client Workflow Configuration Suite.xml" />
+			<suite-file path="XML/Client UI Content Setup Suite.xml" />
+			 <suite-file path="XML/Vendor Hierarchy Suite.xml" />
+			<suite-file path="XML/Supplier Suite.xml" />
+			<suite-file path="XML/Contract Suite.xml" />
+			<suite-file path="XML/PO Suite.xml" />
+			<suite-file path="XML/Obligation Suite.xml" />
+			<suite-file path="XML/childDNO Suite.xml" />
+			<suite-file path="XML/SL Suite.xml" />
+			<suite-file path="XML/Child SL Suite.xml" />
+			<suite-file path="XML/Action Suite.xml" />
+			<suite-file path="XML/Issue Suite.xml" />
+			<suite-file path="XML/Dispute Suite.xml" />
+			<suite-file path="XML/Invoice Suite.xml" />
+			<suite-file path="XML/CR Suite.xml" />
+			<suite-file path="XML/Interpretation Suite.xml" />
+			<suite-file path="XML/WOR Suite.xml" />
+			<suite-file path="XML/GB Suite.xml" />
+			<suite-file path="XML/Manual Report Client Admin Suite.xml" />
+			<suite-file path="XML/Manual Report End User Suite.xml" />
+			<suite-file path="XML/Common Listing Suite.xml" /> 
+			<suite-file path="XML/Common Report Suite.xml" /> 
+			<suite-file path="XML/My Profile Suite.xml" /> 
+			<suite-file path="XML/Common Dashboard Suite.xml" />  -->
+	</suite-files>
+</suite>

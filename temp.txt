@@ -1,0 +1,33 @@
+Your Sirion account password policy has been updated. Here is the new policy.
+Password Never Expires
+No
+Password Expires In (Days)
+8
+Advance Password Expiry Notification (Days)
+5
+Temporary Password Expires in (Hours)
+12
+Enforce Password History
+Yes
+Past Passwords Count
+5
+Minimum Password Length
+10
+Password Complexity Requirement
+No restriction
+Password Answer Requirement
+Cannot Contain Password
+Maximum Login Invalid Attempts
+5
+Unlock Account
+Yes
+Lockout Effective Period (Minutes)
+15
+Enforce 24 Hours as Minimum Lifetime of Password
+Yes
+Max Failed Security Question Attempts Allowed
+5
+Max Idle Time
+7
+Disable Save Password in Browser
+Yes

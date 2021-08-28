@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WOR Suite">
+
+	<test name="WOR - Update">
+		<classes>
+			<class name="office.sirion.suite.wor.WORUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="WOR - Workflow">
+		<classes>
+			<class name="office.sirion.suite.wor.WORWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>

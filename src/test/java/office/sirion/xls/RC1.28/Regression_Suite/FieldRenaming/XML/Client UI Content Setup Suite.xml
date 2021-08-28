@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Client UI Content Setup Suite">
+
+	<test name="Client Admin - Field Labels">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.UIContentSetup.FieldLabels"></class>
+		</classes>
+	</test>
+	
+</suite>

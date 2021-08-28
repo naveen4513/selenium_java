@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Profile Suite">
+
+	<test name="Delegation - Delegated By Me">
+		<classes>
+			<class name="office.sirion.suite.myProfile.DelegatedByMe"></class>
+		</classes>
+	</test>
+	
+	<test name="Delegation - Delegated To Me">
+		<classes>
+			<class name="office.sirion.suite.myProfile.DelegatedToMe"></class>
+		</classes>
+	</test>
+	
+</suite>

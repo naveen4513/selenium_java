@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bulk Create Suite">
+
+	<test name="Actions Bulk Edit Test">
+		<classes>
+			<class name="office.sirion.suite.bulkEdit.BulkEditActions"></class>
+		</classes>
+	</test>
+
+	<test name="Child Obligation Bulk Edit Test">
+		<classes>
+			<class name="office.sirion.suite.bulkEdit.BulkEditChildObligations"></class>
+		</classes>
+	</test>
+
+	<test name="Child Service Level Bulk Edit Test">
+		<classes>
+			<class name="office.sirion.suite.bulkEdit.BulkEditChildServiceLevels"></class>
+		</classes>
+	</test>
+
+	<test name="Contracts Bulk Edit Test">
+		<classes>
+			<class name="office.sirion.suite.bulkEdit.BulkEditContract"></class>
+		</classes>
+	</test>
+
+	<test name="Invoice Bulk Edit Test">
+		<classes>
+			<class name="office.sirion.suite.bulkEdit.BulkEditInvoice"></class>
+		</classes>
+	</test>
+
+	<test name="Issues Bulk Edit Test">
+		<classes>
+			<class name="office.sirion.suite.bulkEdit.BulkEditIssues"></class>
+		</classes>
+	</test>
+
+	<test name="Master Obligations Bulk Edit Test">
+		<classes>
+			<class name="office.sirion.suite.bulkEdit.BulkEditObligations"></class>
+		</classes>
+	</test>
+
+	<!-- <test name="Service Data Bulk Edit Test">
+		<classes>
+			<class name="office.sirion.suite.bulkEdit.BulkEditServiceData"></class>
+		</classes>
+	</test> -->
+
+    <test name="Master Service Levels Bulk Edit Test">
+        <classes>
+            <class name="office.sirion.suite.bulkEdit.BulkEditServiceLevels"></class>
+        </classes>
+    </test>
+
+    <test name="Supplier Bulk Edit Test">
+        <classes>
+            <class name="office.sirion.suite.bulkEdit.BulkEditSupplier"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Client Admin Suite]" parallel="tests">
+  <test thread-count="10" name="Client Admin - SLItem(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.SLItem">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="SLItemCreation"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.SLItem -->
+    </classes>
+  </test> <!-- Client Admin - SLItem(failed) -->
+  <test thread-count="10" name="Client Admin - OBCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.OBCategory">
+        <methods>
+          <include name="OBCategoryCreation"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.OBCategory -->
+    </classes>
+  </test> <!-- Client Admin - OBCategory(failed) -->
+  <test thread-count="10" name="Client Admin - OBPhase(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.OBPhase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="OBPhaseCreation"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.OBPhase -->
+    </classes>
+  </test> <!-- Client Admin - OBPhase(failed) -->
+  <test thread-count="10" name="Client Admin - ContractPaper(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.ContractPaper">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="ContractPaperCreation"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.ContractPaper -->
+    </classes>
+  </test> <!-- Client Admin - ContractPaper(failed) -->
+  <test thread-count="10" name="Client Admin - SLSubCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.SLSubCategory">
+        <methods>
+          <include name="SLSubCategoryCreation"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.SLSubCategory -->
+    </classes>
+  </test> <!-- Client Admin - SLSubCategory(failed) -->
+  <test thread-count="10" name="Client Admin - VendorClassification(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.VendorClassification">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+          <include name="VendorClassificationCreation"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.VendorClassification -->
+    </classes>
+  </test> <!-- Client Admin - VendorClassification(failed) -->
+  <test thread-count="10" name="Client Admin - ActionType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.ActionType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="ActionTypeCreation"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.ActionType -->
+    </classes>
+  </test> <!-- Client Admin - ActionType(failed) -->
+  <test thread-count="10" name="Client Admin - IssueType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.IssueType">
+        <methods>
+          <include name="IssueTypeCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.IssueType -->
+    </classes>
+  </test> <!-- Client Admin - IssueType(failed) -->
+  <test thread-count="10" name="Client Admin - OBPerformanceType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.OBPerformanceType">
+        <methods>
+          <include name="OBPerformanceTypeCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.OBPerformanceType -->
+    </classes>
+  </test> <!-- Client Admin - OBPerformanceType(failed) -->
+  <test thread-count="10" name="Client Admin - ContractService(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.ContractService">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="ContractServiceCreation"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.ContractService -->
+    </classes>
+  </test> <!-- Client Admin - ContractService(failed) -->
+  <test thread-count="10" name="Client Admin - ServiceSubCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.ServiceSubCategory">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="ServiceSubCategoryCreation"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.ServiceSubCategory -->
+    </classes>
+  </test> <!-- Client Admin - ServiceSubCategory(failed) -->
+  <test thread-count="10" name="Client Admin - ServiceCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.ServiceCategory">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="ServiceCategoryCreation"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.ServiceCategory -->
+    </classes>
+  </test> <!-- Client Admin - ServiceCategory(failed) -->
+  <test thread-count="10" name="Client Admin - ContractType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.ContractType">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="ContractTypeCreation"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.ContractType -->
+    </classes>
+  </test> <!-- Client Admin - ContractType(failed) -->
+  <test thread-count="10" name="Client Admin - CRClass(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.CRClass">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="CRClassCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.CRClass -->
+    </classes>
+  </test> <!-- Client Admin - CRClass(failed) -->
+  <test thread-count="10" name="Client Admin - CRType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.CRType">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="CRTypeCreation"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.CRType -->
+    </classes>
+  </test> <!-- Client Admin - CRType(failed) -->
+  <test thread-count="10" name="Client Admin - UnitType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UnitType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="UnitTypeCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UnitType -->
+    </classes>
+  </test> <!-- Client Admin - UnitType(failed) -->
+  <test thread-count="10" name="Client Admin - AgreementType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.AgreementType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="AgreementTypeCreation"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.AgreementType -->
+    </classes>
+  </test> <!-- Client Admin - AgreementType(failed) -->
+  <test thread-count="10" name="Client Admin - GovernanceBodyType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.GovernanceBodyType">
+        <methods>
+          <include name="GovernanceBodyTypeCreation"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.GovernanceBodyType -->
+    </classes>
+  </test> <!-- Client Admin - GovernanceBodyType(failed) -->
+  <test thread-count="10" name="Client Admin - TermType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.TermType">
+        <methods>
+          <include name="TermTypeCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.TermType -->
+    </classes>
+  </test> <!-- Client Admin - TermType(failed) -->
+  <test thread-count="10" name="Client Admin - ClauseType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.ClauseType">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="ClauseTypeCreation"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.ClauseType -->
+    </classes>
+  </test> <!-- Client Admin - ClauseType(failed) -->
+  <test thread-count="10" name="Client Admin - InterpretationType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.InterpretationType">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="InterpretationTypeCreation"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.InterpretationType -->
+    </classes>
+  </test> <!-- Client Admin - InterpretationType(failed) -->
+  <test thread-count="10" name="Client Admin - ClauseCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.ClauseCategory">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="ClauseCategoryCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.ClauseCategory -->
+    </classes>
+  </test> <!-- Client Admin - ClauseCategory(failed) -->
+  <test thread-count="10" name="Client Admin - CompanyPosition(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.CompanyPosition">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="CompanyPositionCreation"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.CompanyPosition -->
+    </classes>
+  </test> <!-- Client Admin - CompanyPosition(failed) -->
+  <test thread-count="10" name="Client Admin - TransactionType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.TransactionType">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="TransactionTypeCreation"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.TransactionType -->
+    </classes>
+  </test> <!-- Client Admin - TransactionType(failed) -->
+  <test thread-count="10" name="Client Admin - BusinessUnit(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.BusinessUnit">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="BusinessUnitCreation"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.BusinessUnit -->
+    </classes>
+  </test> <!-- Client Admin - BusinessUnit(failed) -->
+  <test thread-count="10" name="Client Admin - IndustryType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.IndustryType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="IndustryTypeCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.IndustryType -->
+    </classes>
+  </test> <!-- Client Admin - IndustryType(failed) -->
+  <test thread-count="10" name="Client Admin - TemplateCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.TemplateCategory">
+        <methods>
+          <include name="TemplateCategoryCreation"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.TemplateCategory -->
+    </classes>
+  </test> <!-- Client Admin - TemplateCategory(failed) -->
+  <test thread-count="10" name="Client Admin - WORType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.WORType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="WORTypeCreation"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.WORType -->
+    </classes>
+  </test> <!-- Client Admin - WORType(failed) -->
+  <test thread-count="10" name="Client Admin - RiskType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.RiskType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="RiskTypeCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.RiskType -->
+    </classes>
+  </test> <!-- Client Admin - RiskType(failed) -->
+  <test thread-count="10" name="Client Admin - PaperType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.PaperType">
+        <methods>
+          <include name="PaperTypeCreation"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.PaperType -->
+    </classes>
+  </test> <!-- Client Admin - PaperType(failed) -->
+  <test thread-count="10" name="Client Admin - BusinessLine(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.BusinessLine">
+        <methods>
+          <include name="BusinessLineCreation"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.BusinessLine -->
+    </classes>
+  </test> <!-- Client Admin - BusinessLine(failed) -->
+  <test thread-count="10" name="Client Admin - Service(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.Service">
+        <methods>
+          <include name="ServiceCreation"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.Service -->
+    </classes>
+  </test> <!-- Client Admin - Service(failed) -->
+  <test thread-count="10" name="Client Admin - Discrepancy Reason Type(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.DiscrepancyReasonType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="DiscrepancyReasonTypeCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.DiscrepancyReasonType -->
+    </classes>
+  </test> <!-- Client Admin - Discrepancy Reason Type(failed) -->
+  <test thread-count="10" name="Client Admin - Function(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.Function">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="FunctionCreation"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.Function -->
+    </classes>
+  </test> <!-- Client Admin - Function(failed) -->
+  <test thread-count="10" name="Client Admin - AdvancedOrganization(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.AdvancedOrganization">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="AdvancedOrganizationTest"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.AdvancedOrganization -->
+    </classes>
+  </test> <!-- Client Admin - AdvancedOrganization(failed) -->
+  <test thread-count="10" name="Client Admin - Geography(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.Geography">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="GeographyCreation"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.Geography -->
+    </classes>
+  </test> <!-- Client Admin - Geography(failed) -->
+  <test thread-count="10" name="Client Admin - CurrencyConversionMatrix(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.CurrencyConversionMatrix">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="CurrencyConversionMatrixCreation"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.CurrencyConversionMatrix -->
+    </classes>
+  </test> <!-- Client Admin - CurrencyConversionMatrix(failed) -->
+  <test thread-count="10" name="Client Admin - Frequency(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.Frequency">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="FrequencyCreation"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.Frequency -->
+    </classes>
+  </test> <!-- Client Admin - Frequency(failed) -->
+  <test thread-count="10" name="Client Admin - Tier(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.Tier">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="TierCreation"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.Tier -->
+    </classes>
+  </test> <!-- Client Admin - Tier(failed) -->
+  <test thread-count="10" name="Client Admin - RegionHub(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.RegionHub">
+        <methods>
+          <include name="RegionHubCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.RegionHub -->
+    </classes>
+  </test> <!-- Client Admin - RegionHub(failed) -->
+  <test thread-count="10" name="Client Admin - CompanyCode(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.CompanyCode">
+        <methods>
+          <include name="CompanyCodeCreation"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.CompanyCode -->
+    </classes>
+  </test> <!-- Client Admin - CompanyCode(failed) -->
+  <test thread-count="10" name="Client Admin - Project(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.Project">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="ProjectCreation"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.Project -->
+    </classes>
+  </test> <!-- Client Admin - Project(failed) -->
+  <test thread-count="10" name="Client Admin - Region(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.Region">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="RegionCreation"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.Region -->
+    </classes>
+  </test> <!-- Client Admin - Region(failed) -->
+  <test thread-count="10" name="Client Admin - Market(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.Market">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="MarketCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.Market -->
+    </classes>
+  </test> <!-- Client Admin - Market(failed) -->
+  <test thread-count="10" name="Client Admin - InternalContractingParty(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.InternalContractingParty">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="InternalContractingPartyCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.InternalContractingParty -->
+    </classes>
+  </test> <!-- Client Admin - InternalContractingParty(failed) -->
+  <test thread-count="10" name="Client Admin - Update Geography(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateGeography">
+        <methods>
+          <include name="UpdateGeographyTest"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateGeography -->
+    </classes>
+  </test> <!-- Client Admin - Update Geography(failed) -->
+  <test thread-count="10" name="Client Admin - Update Function(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateFunction">
+        <methods>
+          <include name="UpdateFunctionTest"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateFunction -->
+    </classes>
+  </test> <!-- Client Admin - Update Function(failed) -->
+  <test thread-count="10" name="Client Admin - Update Region(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateRegion">
+        <methods>
+          <include name="UpdateRegionTest"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateRegion -->
+    </classes>
+  </test> <!-- Client Admin - Update Region(failed) -->
+  <test thread-count="10" name="Client Admin - Update ServiceSubCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateServiceSubCategory">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="UpdateServiceSubCategoryTest"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateServiceSubCategory -->
+    </classes>
+  </test> <!-- Client Admin - Update ServiceSubCategory(failed) -->
+  <test thread-count="10" name="Client Admin - Update ContractService(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateContractService">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="UpdateContractServiceTest"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateContractService -->
+    </classes>
+  </test> <!-- Client Admin - Update ContractService(failed) -->
+  <test thread-count="10" name="Client Admin - Organization Properties(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.OrganizationProperties">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="OrganizationPropertiesTest"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.OrganizationProperties -->
+    </classes>
+  </test> <!-- Client Admin - Organization Properties(failed) -->
+  <test thread-count="10" name="Client Admin - Update Project(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateProject">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateProjectTest"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateProject -->
+    </classes>
+  </test> <!-- Client Admin - Update Project(failed) -->
+  <test thread-count="10" name="Client Admin - Update ServiceCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateServiceCategory">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="UpdateServiceCategoryTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateServiceCategory -->
+    </classes>
+  </test> <!-- Client Admin - Update ServiceCategory(failed) -->
+  <test thread-count="10" name="Client Admin - Update Frequency(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateFrequency">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="UpdateFrequencyTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateFrequency -->
+    </classes>
+  </test> <!-- Client Admin - Update Frequency(failed) -->
+  <test thread-count="10" name="Client Admin - Update Service(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateService">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateServiceTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateService -->
+    </classes>
+  </test> <!-- Client Admin - Update Service(failed) -->
+  <test thread-count="10" name="Client Admin - Update Tier(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateTier">
+        <methods>
+          <include name="TierCreation"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateTier -->
+    </classes>
+  </test> <!-- Client Admin - Update Tier(failed) -->
+  <test thread-count="10" name="Client Admin - Update CompanyCode(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateCompanyCode">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="UpdateCompanyCodeTest"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateCompanyCode -->
+    </classes>
+  </test> <!-- Client Admin - Update CompanyCode(failed) -->
+  <test thread-count="10" name="Client Admin - Update RegionHub(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateRegionHub">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="UpdateRegionHubTest"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateRegionHub -->
+    </classes>
+  </test> <!-- Client Admin - Update RegionHub(failed) -->
+  <test thread-count="10" name="Client Admin - Update SLCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateSLCategory">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateSLCategoryTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateSLCategory -->
+    </classes>
+  </test> <!-- Client Admin - Update SLCategory(failed) -->
+  <test thread-count="10" name="Client Admin - Update OBCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateOBCategory">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="UpdateOBCategoryTest"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateOBCategory -->
+    </classes>
+  </test> <!-- Client Admin - Update OBCategory(failed) -->
+  <test thread-count="10" name="Client Admin - Update OBPhase(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateOBPhase">
+        <methods>
+          <include name="UpdateOBPhaseTest"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateOBPhase -->
+    </classes>
+  </test> <!-- Client Admin - Update OBPhase(failed) -->
+  <test thread-count="10" name="Client Admin - Update Market(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateMarket">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateMarketTest"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateMarket -->
+    </classes>
+  </test> <!-- Client Admin - Update Market(failed) -->
+  <test thread-count="10" name="Client Admin - Update InternalContractingParty(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateInternalContractingParty">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateInternalContractingPartyTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateInternalContractingParty -->
+    </classes>
+  </test> <!-- Client Admin - Update InternalContractingParty(failed) -->
+  <test thread-count="10" name="Client Admin - Update SLSubCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateSLSubCategory">
+        <methods>
+          <include name="UpdateSLSubCategoryTest"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateSLSubCategory -->
+    </classes>
+  </test> <!-- Client Admin - Update SLSubCategory(failed) -->
+  <test thread-count="10" name="Client Admin - Update SLItem(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateSLItem">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="UpdateSLItemTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateSLItem -->
+    </classes>
+  </test> <!-- Client Admin - Update SLItem(failed) -->
+  <test thread-count="10" name="Client Admin - Update VendorClassification(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateVendorClassification">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="UpdateVendorClassificationTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateVendorClassification -->
+    </classes>
+  </test> <!-- Client Admin - Update VendorClassification(failed) -->
+  <test thread-count="10" name="Client Admin - Update OBPerformanceType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateOBPerformanceType">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateOBPerformanceTypeTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateOBPerformanceType -->
+    </classes>
+  </test> <!-- Client Admin - Update OBPerformanceType(failed) -->
+  <test thread-count="10" name="Client Admin - Update ActionType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateActionType">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="UpdateActionTypeTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateActionType -->
+    </classes>
+  </test> <!-- Client Admin - Update ActionType(failed) -->
+  <test thread-count="10" name="Client Admin - Update IssueType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateIssueType">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="UpdateIssueTypeTest"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateIssueType -->
+    </classes>
+  </test> <!-- Client Admin - Update IssueType(failed) -->
+  <test thread-count="10" name="Client Admin - Update ContractPaper(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateContractPaper">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateContractPaperTest"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateContractPaper -->
+    </classes>
+  </test> <!-- Client Admin - Update ContractPaper(failed) -->
+  <test thread-count="10" name="Client Admin - Update CRType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateCRType">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateCRTypeTest"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateCRType -->
+    </classes>
+  </test> <!-- Client Admin - Update CRType(failed) -->
+  <test thread-count="10" name="Client Admin - Update ContractType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateContractType">
+        <methods>
+          <include name="UpdateTermTypeTest"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateContractType -->
+    </classes>
+  </test> <!-- Client Admin - Update ContractType(failed) -->
+  <test thread-count="10" name="Client Admin - Update TermType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateTermType">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="UpdateTermTypeTest"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateTermType -->
+    </classes>
+  </test> <!-- Client Admin - Update TermType(failed) -->
+  <test thread-count="10" name="Client Admin - Update ClauseType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateClauseType">
+        <methods>
+          <include name="UpdateClauseTypeTest"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateClauseType -->
+    </classes>
+  </test> <!-- Client Admin - Update ClauseType(failed) -->
+  <test thread-count="10" name="Client Admin - Update CRClass(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateCRClass">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+          <include name="UpdateCRClassTest"/>
+          <include name="checkSuiteClosure"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateCRClass -->
+    </classes>
+  </test> <!-- Client Admin - Update CRClass(failed) -->
+  <test thread-count="10" name="Client Admin - Update GovernanceBodyType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateGovernanceBodyType">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateGovernanceBodyTypeTest"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateGovernanceBodyType -->
+    </classes>
+  </test> <!-- Client Admin - Update GovernanceBodyType(failed) -->
+  <test thread-count="10" name="Client Admin - Update InterpretationType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateInterpretationType">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="UpdateInterpretationTypeTest"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateInterpretationType -->
+    </classes>
+  </test> <!-- Client Admin - Update InterpretationType(failed) -->
+  <test thread-count="10" name="Client Admin - Update UnitType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateUnitType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateUnitTypeTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateUnitType -->
+    </classes>
+  </test> <!-- Client Admin - Update UnitType(failed) -->
+  <test thread-count="10" name="Client Admin - Update ClauseCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateClauseCategory">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="UpdateClauseCategoryTest"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateClauseCategory -->
+    </classes>
+  </test> <!-- Client Admin - Update ClauseCategory(failed) -->
+  <test thread-count="10" name="Client Admin - Update WORType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateWORType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateInterpretationTypeTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateWORType -->
+    </classes>
+  </test> <!-- Client Admin - Update WORType(failed) -->
+  <test thread-count="10" name="Client Admin - Update AgreementType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateAgreementType">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateAgreementTypeTest"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateAgreementType -->
+    </classes>
+  </test> <!-- Client Admin - Update AgreementType(failed) -->
+  <test thread-count="10" name="Client Admin - Update IndustryType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateIndustryType">
+        <methods>
+          <include name="UpdateIndustryTypeTest"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateIndustryType -->
+    </classes>
+  </test> <!-- Client Admin - Update IndustryType(failed) -->
+  <test thread-count="10" name="Client Admin - Update CompanyPosition(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateCompanyPosition">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="UpdateCompanyPositionTest"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateCompanyPosition -->
+    </classes>
+  </test> <!-- Client Admin - Update CompanyPosition(failed) -->
+  <test thread-count="10" name="Client Admin - Update TemplateCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateTemplateCategory">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="UpdateTemplateCategoryTest"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateTemplateCategory -->
+    </classes>
+  </test> <!-- Client Admin - Update TemplateCategory(failed) -->
+  <test thread-count="10" name="Client Admin - Update TransactionType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateTransactionType">
+        <methods>
+          <include name="UpdateTransactionTypeTest"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateTransactionType -->
+    </classes>
+  </test> <!-- Client Admin - Update TransactionType(failed) -->
+  <test thread-count="10" name="Client Admin - Update Discrepancy Reason Type(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateDiscrepancyReasonType">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="UpdateDiscrepancyReasonTypeTest"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateDiscrepancyReasonType -->
+    </classes>
+  </test> <!-- Client Admin - Update Discrepancy Reason Type(failed) -->
+  <test thread-count="10" name="Client Admin - Update BusinessUnit(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateBusinessUnit">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+          <include name="UpdateBusinessUnitTest"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateBusinessUnit -->
+    </classes>
+  </test> <!-- Client Admin - Update BusinessUnit(failed) -->
+  <test thread-count="10" name="Client Admin - Update RiskType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateRiskType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="UpdateRiskTypeTest"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateRiskType -->
+    </classes>
+  </test> <!-- Client Admin - Update RiskType(failed) -->
+  <test thread-count="10" name="Client Admin - Update PaperType(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdatePaperType">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="UpdatePaperTypeTest"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdatePaperType -->
+    </classes>
+  </test> <!-- Client Admin - Update PaperType(failed) -->
+  <test thread-count="10" name="Client Admin - Update BusinessLine(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.UpdateBusinessLine">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="UpdateBusinessLineTest"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.UpdateBusinessLine -->
+    </classes>
+  </test> <!-- Client Admin - Update BusinessLine(failed) -->
+  <test thread-count="10" name="Client Admin - Notification Alert(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.NotificationAlert">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="NotificationAlertCreation"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.NotificationAlert -->
+    </classes>
+  </test> <!-- Client Admin - Notification Alert(failed) -->
+  <test thread-count="10" name="Client Admin - Password Policy(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.PasswordPolicy">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="PasswordPolicyTest"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.PasswordPolicy -->
+    </classes>
+  </test> <!-- Client Admin - Password Policy(failed) -->
+  <test thread-count="10" name="Client Admin - SLCategory(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.SLCategory">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteClosure"/>
+          <include name="SLCategoryCreation" invocation-numbers="0 1"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.SLCategory -->
+    </classes>
+  </test> <!-- Client Admin - SLCategory(failed) -->
+  <test thread-count="10" name="Client Admin - OrganizationBranding(failed)" parallel="tests">
+    <classes>
+      <class name="office.sirion.suite.clientAdmin.OrganizationBranding">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="OrganizationBrandingTest"/>
+          <include name="checkSuiteClosure"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.clientAdmin.OrganizationBranding -->
+    </classes>
+  </test> <!-- Client Admin - OrganizationBranding(failed) -->
+</suite> <!-- Failed suite [Client Admin Suite] -->

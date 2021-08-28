@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mass Email Suite">
+
+	<test name="End User ToDo Approvals">
+		<classes>
+			<class name="office.sirion.suite.massEmail.MassEmailCreation"></class>
+		</classes>
+	</test>
+
+</suite>
+

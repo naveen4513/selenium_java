@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bulk Create Suite">
+
+	<test name="Obligation Bulk Action Test">
+		<classes>
+			<class name="office.sirion.suite.bulkAction.Obligations"></class>
+		</classes>
+	</test>
+
+	<test name="Child Obligation Bulk Action Test">
+		<classes>
+			<class name="office.sirion.suite.bulkAction.ChildObligations"></class>
+		</classes>
+	</test>
+
+	<test name="Service Level Bulk Action Test">
+		<classes>
+			<class name="office.sirion.suite.bulkAction.ServiceLevels"></class>
+		</classes>
+	</test>
+
+	<test name="Child Service Level Bulk Action Test">
+		<classes>
+			<class name="office.sirion.suite.bulkAction.ChildServiceLevels"></class>
+		</classes>
+	</test>
+
+	<test name="Invoice Bulk Action Test">
+		<classes>
+			<class name="office.sirion.suite.bulkAction.Invoice"></class>
+		</classes>
+	</test>
+
+	<test name="Invoice Line Item Bulk Action Test">
+		<classes>
+			<class name="office.sirion.suite.bulkAction.InvoiceLineItems"></class>
+		</classes>
+	</test>
+
+	<test name="Service Data Bulk Action Test">
+		<classes>
+			<class name="office.sirion.suite.bulkAction.ServiceData"></class>
+		</classes>
+	</test>
+
+	<test name="Consumption Bulk Action Test">
+		<classes>
+			<class name="office.sirion.suite.bulkAction.Consumption"></class>
+		</classes>
+	</test>
+
+</suite>

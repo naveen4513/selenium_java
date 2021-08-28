@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Manual Report Suite">
+
+	<test name="Manual Report - End User">
+		<classes>
+			<class
+				name="office.sirion.suite.manualReport.EndUserManualReport"></class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sirion User Admin Suite">
+
+	<test name="Sirion User Admin - Client Admin Creation">
+		<classes>
+			<class
+				name="office.sirion.suite.sirionUserAdmin.ClientAdminCreation"></class>
+		</classes>
+	</test>
+
+</suite>

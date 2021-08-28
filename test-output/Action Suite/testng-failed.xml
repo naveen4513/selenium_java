@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Action Suite]">
+  <test thread-count="5" name="Action - Creation(failed)">
+    <classes>
+      <class name="office.sirion.suite.action.ActionCreation">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteClosure"/>
+          <include name="ActionCreationTest" invocation-numbers="0 1"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.action.ActionCreation -->
+    </classes>
+  </test> <!-- Action - Creation(failed) -->
+  <test thread-count="5" name="Action - Update(failed)">
+    <classes>
+      <class name="office.sirion.suite.action.ActionUpdate">
+        <methods>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="ActionUpdateTest" invocation-numbers="0 1"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.action.ActionUpdate -->
+    </classes>
+  </test> <!-- Action - Update(failed) -->
+  <test thread-count="5" name="Action - Workflow(failed)">
+    <classes>
+      <class name="office.sirion.suite.action.ActionWorkflow">
+        <methods>
+          <include name="ActionWorkflowTest" invocation-numbers="0 1"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- office.sirion.suite.action.ActionWorkflow -->
+    </classes>
+  </test> <!-- Action - Workflow(failed) -->
+  <test thread-count="5" name="Action - CoomunicationTab(failed)">
+    <classes>
+      <class name="office.sirion.suite.action.ActionCommunication">
+        <methods>
+          <include name="checkSuiteClosure"/>
+          <include name="ActionCommunicationTest" invocation-numbers="0 1"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.action.ActionCommunication -->
+    </classes>
+  </test> <!-- Action - CoomunicationTab(failed) -->
+  <test thread-count="5" name="Action - AuditLogTab(failed)">
+    <classes>
+      <class name="office.sirion.suite.action.ActionAuditLog">
+        <methods>
+          <include name="ActionAuditLogTest" invocation-numbers="0 1"/>
+          <include name="checkSuiteClosure"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- office.sirion.suite.action.ActionAuditLog -->
+    </classes>
+  </test> <!-- Action - AuditLogTab(failed) -->
+</suite> <!-- Failed suite [Action Suite] -->

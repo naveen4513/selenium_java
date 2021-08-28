@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Client User Admin Suite">
+
+	<test name="Client User Admin - User Role Group">
+		<classes>
+			<class name="office.sirion.suite.clientUserAdmin.UpdateUserRoleGroup"></class>
+		</classes>
+	</test>
+
+	<!--<test name="Client User Admin - User Access Criteria">
+		<classes>
+			<class name="office.sirion.suite.clientUserAdmin.U"></class>
+		</classes>
+	</test>
+
+	<test name="Client User Admin - Client User Creation">
+		<classes>
+			<class name="office.sirion.suite.clientUserAdmin.ClientUserCreation"></class>
+		</classes>
+	</test>-->
+
+
+</suite>

@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Client UI Content Setup Suite">
+
+	<test name="Client Admin - Quick Link Content Controls">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.UIContentSetup.QuickLinkContentControls"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Report Content Controls">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.UIContentSetup.ReportContentControls"></class>
+		</classes>
+	</test>
+
+	<test name="Client Admin - Tab List Content Controls">
+		<classes>
+			<class name="office.sirion.suite.clientAdmin.UIContentSetup.TabListContentControls"></class>
+		</classes>
+	</test>
+
+</suite>

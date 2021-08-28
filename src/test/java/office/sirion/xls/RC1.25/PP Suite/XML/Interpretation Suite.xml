@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Interpretation Suite">
+
+	<test name="Interpretation - Update">
+		<classes>
+			<class name="office.sirion.suite.interpretation.InterpretationUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Interpretation - Workflow">
+		<classes>
+			<class name="office.sirion.suite.interpretation.InterpretationWorkflow"></class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,5 @@
+Hi All,
+
+Please refer to the below table for Code-Coverage of ${ReleaseVersion} (Dated: ${Date}), data will available at \\space\qa\Code Coverage\${ReleaseVersion} after few hours.
+
+~Naveen Kumar Gupta

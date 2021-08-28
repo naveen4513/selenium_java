@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Contract Suite">
+
+	<test name="Contract - Update">
+		<classes>
+			<class name="office.sirion.suite.contract.ContractUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Worklfow">
+		<classes>
+			<class name="office.sirion.suite.contract.ContractWorkflow"></class>
+		</classes>
+	</test>
+
+	<test name="Contract - Document Viewer">
+		<classes>
+			<class name="office.sirion.suite.contract.ContractDocumentViewer"></class>
+		</classes>
+	</test>
+
+</suite>

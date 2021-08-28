@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Supplier Suite">
+
+	<test name="Supplier - Update">
+		<classes>
+			<class name="office.sirion.suite.supplier.SupplierUpdate"></class>
+		</classes>
+	</test>
+
+	<test name="Supplier - Workflow">
+		<classes>
+			<class name="office.sirion.suite.supplier.SupplierWorkflow"></class>
+		</classes>
+	</test>
+
+	<test name="Supplier - ECP Update">
+		<classes>
+			<class name="office.sirion.suite.supplier.ECPUpdate"></class>
+		</classes>
+	</test>
+
+</suite>
